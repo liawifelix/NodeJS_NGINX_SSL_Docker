@@ -56,5 +56,5 @@ Change all `test.com` to your domain.
 2. Do the configuration.
 3. Run `chmod +x init-letsencrypt.sh` in the clone root dir.
 4. Run `sudo ./init-letsencrypt.sh` in the clone root dir.
-5. Finally, run `docker-compose up --build -d` in the clone root dir.
-
+5. Run `docker-compose up --build -d` in the clone root dir to rebuild the container.
+6. Go to your domain.com, and you will see `Hello from finic two three` sentence if the configuration is success.
